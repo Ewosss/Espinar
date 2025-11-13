@@ -10,24 +10,24 @@
             font-family: 'Poppins', sans-serif;
         }
         header {
-            background: #0d6efd;
+            background: #175739ff;
             color: white;
-            padding: 80px 0;
-            text-align: center;
+            padding: 60px 40px; /* Taller header */
+        }
+        header .profile-img {
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            margin-right: 25px;
         }
         section {
             padding: 60px 0;
         }
         footer {
-            background: #f8f9fa;
+            background: #090a0aff;
             text-align: center;
             padding: 20px 0;
-            color: #6c757d;
-        }
-        .profile-img {
-            width: 150px;
-            border-radius: 50%;
-            margin-bottom: 20px;
+            color: #0d0d0eff;
         }
     </style>
 </head>
@@ -35,13 +35,17 @@
 
     <!-- Header Section -->
     <header>
-        <img src="https://via.placeholder.com/150" alt="Profile" class="profile-img">
-        <h1>{{ $name ?? 'SEBASTIAN ESPINAR' }}</h1>
-        <p>{{ $title ?? 'Web Developer | Designer | Programmer' }}</p>
+        <div class="container d-flex align-items-center">
+            <img src="{{ asset('seb.jpg') }}" alt="Profile" class="profile-img">
+            <div>
+                <h1 class="mb-1" style="font-size:2rem;">{{ $name ?? 'SEBASTIAN ESPINAR' }}</h1>
+                <p class="mb-0" style="font-size:1.1rem;">{{ $title ?? 'Web Developer | Designer | Programmer' }}</p>
+            </div>
+        </div>
     </header>
 
     <!-- About Section -->
-    <section id="about" class="container text-center">
+    <section id="about" class="container text-center" style="background-color:#000000; color:white;">
         <h2>About Me</h2>
         <p class="mt-3">
             {{ $about ?? "I am a passionate developer who loves creating modern, responsive websites and applications. I enjoy learning new technologies and solving real-world problems with code." }}
@@ -61,7 +65,6 @@
                         <div class="card-body text-center">
                             <h5 class="card-title">Project One</h5>
                             <p class="card-text">Packet Tracer - Switch Security Configuration. This project demonstrates network security configuration using Cisco Packet Tracer.</p>
-                            <!-- Download Button -->
                             <a href="11.6.1 Packet Tracer - Switch Security Configuration.pka" download class="btn btn-primary">
                                 Download Project
                             </a>
