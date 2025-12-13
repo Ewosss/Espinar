@@ -1,58 +1,29 @@
-# Laravel Portfolio CMS
+ESPINAR, SEBASTIAN D. Laravel Portfolio CMS
 
-A modern **Laravel-based portfolio website** with a built-in **Content Management System (CMS)** that allows easy management of projects, skills, experiences, and other portfolio content without modifying the source code.
+A Laravel-powered portfolio website with a built-in Content Management System (CMS) so I (and you!) can easily manage portfolio projects, skills, experiences, and other content without touching the code. Perfect for showing off my work in style. 🌟
 
-This project is ideal for students, developers, and professionals who want a customizable portfolio with an admin dashboard for content control.
+✨ Features
+🔐 Admin Login – Secure dashboard for managing content
+📝 CMS Dashboard – Add, edit, and delete projects, skills, and experiences
+📂 Projects Management – Showcase portfolio projects with images and links
+👤 About Me Section – Easily update personal bio and profile info
+🖼️ Media Management – Upload images for projects and profile
+🎨 Responsive Design – Looks great on mobile, tablet, and desktop
+🌐 SEO-Friendly – Optimized for search engines
+⚙️ Laravel MVC Structure – Clean, maintainable code
 
----
+🛠️ Built With
+Laravel – PHP framework for the backend
+MySQL – Database for storing portfolio content
+Blade – Laravel's templating engine
+Bootstrap / Tailwind CSS – Styling and responsive design
+JavaScript / Alpine.js – Interactive frontend
 
-## 🚀 Features
+📋 Requirements
+Make sure you have these installed:
+PHP >= 8.1
+Composer
+MySQL / MariaDB
+Node.js & npm
+Git
 
-* 🔐 Authentication & Authorization (Admin login)
-* 📝 CMS Dashboard for managing portfolio content
-* 📂 Project Management (CRUD)
-* 🧠 Skills & Technologies Management
-* 👤 About Me & Profile Section
-* 📰 Blog / Articles (optional)
-* 🖼️ Image Upload & Media Management
-* 🎨 Responsive UI (Bootstrap / Tailwind)
-* 🌐 SEO-friendly pages
-* ⚙️ Laravel MVC Architecture
-
----
-
-## 🛠️ Built With
-
-* **Laravel** (PHP Framework)
-* **MySQL** (Database)
-* **Blade** (Template Engine)
-* **Bootstrap / Tailwind CSS** (UI Styling)
-* **JavaScript / Alpine.js** (Interactivity)
-
----
-
-## 📋 Requirements
-
-Before running the project, make sure you have the following installed:
-
-* PHP >= 8.1
-* Composer
-* MySQL or MariaDB
-* Node.js & npm (for frontend assets)
-* Git
-
----
-
-## 📦 Installation
-
-1. **Clone the repository**
-
-```bash
-
-```
-
-2. **Navigate to the project directory**
-
-```bash
-
-```
